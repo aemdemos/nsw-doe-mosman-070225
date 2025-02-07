@@ -28,7 +28,7 @@
   margin-bottom: 5px; /* Ensure text is more compact */
 }
 
-@media (max-width: 900px) {
+@media (width <= 900px) {
   .aicolumns-1-wrapper > .aicolumns-1 {
     flex-direction: column;
     align-items: flex-start;
