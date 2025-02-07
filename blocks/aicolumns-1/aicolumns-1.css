@@ -1,0 +1,68 @@
+
+.aicolumns-1-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start; /* Align items to the top */
+}
+
+.aicolumns-1-wrapper > .aicolumns-1 > div {
+  display: flex;
+  flex-direction: row; /* Ensure the inner divs are side by side */
+  align-items: flex-start;
+}
+
+.aicolumns-1-wrapper > .aicolumns-1 > div > div {
+  padding: 10px;
+}
+
+.aicolumns-1-wrapper > .aicolumns-1 > div > div:first-child {
+  flex: 0 0 350px; /* Set the width of the first div (left column) to 350px */
+  display: flex;
+  flex-direction: column; /* Ensure the content inside the left column is aligned properly */
+  justify-content: center; /* Center the logo/image vertically */
+  align-items: flex-start; /* Align the content to the left */
+}
+
+.aicolumns-1-wrapper > .aicolumns-1 > div > div:first-child > div {
+  display: flex;
+  flex-direction: row; /* Ensure the image and text are side by side */
+  align-items: center; /* Center the logo/image vertically */
+}
+
+.aicolumns-1-wrapper > .aicolumns-1 > div > div:first-child img {
+  width: auto;
+  max-width: 120px; /* Increase the size of the logo/image */
+  margin-right: 20px; /* Adjust margin to better match the original spacing */
+}
+
+.aicolumns-1-wrapper > .aicolumns-1 > div > div:last-child {
+  flex: 1; /* Allow the text content to take up the remaining space */
+}
+
+.aicolumns-1-wrapper > .aicolumns-1 > div > div > h2,
+.aicolumns-1-wrapper > .aicolumns-1 > div > div > h3,
+.aicolumns-1-wrapper > .aicolumns-1 > div > div > ul,
+.aicolumns-1-wrapper > .aicolumns-1 > div > div > p {
+  margin-bottom: 15px; /* Increase margin to ensure text is more spaced out */
+}
+
+@media (max-width: 900px) {
+  .aicolumns-1-wrapper {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .aicolumns-1-wrapper > .aicolumns-1 > div {
+    flex-direction: column;
+  }
+
+  .aicolumns-1-wrapper > .aicolumns-1 > div > div {
+    width: 100%;
+  }
+
+  .aicolumns-1-wrapper > .aicolumns-1 > div > div:first-child img {
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+}
