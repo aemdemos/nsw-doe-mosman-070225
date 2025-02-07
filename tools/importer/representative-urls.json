@@ -1,0 +1,122 @@
+{
+  "originUrl": "https://mosman-p.schools.nsw.gov.au/",
+  "totalUrls": 221,
+  "urls": [
+    {
+      "url": "https://mosman-p.schools.nsw.gov.au/",
+      "source": "NAV"
+    },
+    {
+      "url": "https://mosman-p.schools.nsw.gov.au/about-our-school.html",
+      "source": "NAV"
+    },
+    {
+      "url": "https://mosman-p.schools.nsw.gov.au/supporting-our-students.html",
+      "source": "NAV"
+    },
+    {
+      "url": "https://mosman-p.schools.nsw.gov.au/learning-at-our-school.html",
+      "source": "NAV"
+    },
+    {
+      "url": "https://mosman-p.schools.nsw.gov.au/parents-and-citizens-association.html",
+      "source": "NAV"
+    },
+    {
+      "url": "https://mosman-p.schools.nsw.gov.au/our_sustainable_school.html",
+      "source": "NAV"
+    },
+    {
+      "url": "https://mosman-p.schools.nsw.gov.au/about-our-school/enrolment.html",
+      "source": "NAV"
+    },
+    {
+      "url": "https://mosman-p.schools.nsw.gov.au/newsletter.html",
+      "source": "NAV"
+    },
+    {
+      "url": "https://mosman-p.schools.nsw.gov.au/gallery.html",
+      "source": "NAV"
+    },
+    {
+      "url": "https://mosman-p.schools.nsw.gov.au/newsletter/2018/3.html",
+      "repCount": 98,
+      "source": "SITEMAPS"
+    },
+    {
+      "url": "https://mosman-p.schools.nsw.gov.au/news/2018/7.html",
+      "repCount": 52,
+      "source": "SITEMAPS"
+    },
+    {
+      "url": "https://mosman-p.schools.nsw.gov.au/content/dam/doe/sws/schools/m/mosman-p/download-box/RAP_Mosman_Public_Schook_2023.pdf",
+      "repCount": 18,
+      "source": "SITEMAPS"
+    },
+    {
+      "url": "https://mosman-p.schools.nsw.gov.au/newsletter/2018.html",
+      "repCount": 13,
+      "source": "SITEMAPS"
+    },
+    {
+      "url": "https://mosman-p.schools.nsw.gov.au/about-our-school/school-planning-and-reporting.html",
+      "repCount": 7,
+      "source": "SITEMAPS"
+    },
+    {
+      "url": "https://mosman-p.schools.nsw.gov.au/news/2018.html",
+      "repCount": 7,
+      "source": "SITEMAPS"
+    },
+    {
+      "url": "https://mosman-p.schools.nsw.gov.au/parents-and-citizens-association/meeting-minutes.html",
+      "repCount": 5,
+      "source": "SITEMAPS"
+    },
+    {
+      "url": "https://mosman-p.schools.nsw.gov.au/supporting-our-students/student-health-and-safety.html",
+      "repCount": 4,
+      "source": "SITEMAPS"
+    },
+    {
+      "url": "https://mosman-p.schools.nsw.gov.au/learning-at-our-school/learning-across-the-curriculum.html",
+      "repCount": 3,
+      "source": "SITEMAPS"
+    },
+    {
+      "url": "https://mosman-p.schools.nsw.gov.au/our_sustainable_school/garden-gurus.html",
+      "repCount": 2,
+      "source": "SITEMAPS"
+    },
+    {
+      "url": "https://mosman-p.schools.nsw.gov.au/supporting-our-students/student-health-and-safety/school-counselling-service.html",
+      "repCount": 1,
+      "source": "SITEMAPS"
+    },
+    {
+      "url": "https://mosman-p.schools.nsw.gov.au/news.html",
+      "repCount": 1,
+      "source": "SITEMAPS"
+    },
+    {
+      "url": "https://mosman-p.schools.nsw.gov.au/events.html",
+      "repCount": 1,
+      "source": "SITEMAPS"
+    },
+    {
+      "url": "https://mosman-p.schools.nsw.gov.au/content/dam/doe/sws/schools/m/mosman-p/kindergarten/kindy-transition-2022/Shadforth_OSHC_Kindergarten_Flyer_2022_vF14Oct21.pdf",
+      "repCount": 1,
+      "source": "SITEMAPS"
+    }
+  ],
+  "crawlOptions": {
+    "timeout": 10000,
+    "inclusionPatterns": [],
+    "exclusionPatterns": [],
+    "limit": -1,
+    "sameDomain": true,
+    "keepHash": false,
+    "strategy": "sitemaps",
+    "logger": {}
+  }
+}
